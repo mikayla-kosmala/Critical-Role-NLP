@@ -112,9 +112,7 @@ def data_gathering_episodes_dirty(links):
         results = results.replace("\u0301", " ")
         results = results.replace("♫", " ")
         results = results.replace("\ufffd", " ")
-        scripts.append(results)
-
-    print(scripts[0][:6])
+        scripts.ap
     return "/n/n/n".join(scripts)
 
 URL = "https://kryogenix.org/crsearch/html/index.html"
@@ -123,17 +121,17 @@ page = requests.get(URL)
 soup = BeautifulSoup(page.content, "html.parser")
 
 # Grab the links for all campaign 3 episodes and store them into a list
-results= soup.find_all('a',{'href':re.compile(r'^cr2')})
+results= soup.find_all('a',{'href':re.compile(r'^cr3-16')})
 
 links=[link['href'] for link in results][::-1]
 
 data_1 = data_gathering_episodes_dirty(links[:73])
 data_2 = data_gathering_episodes_dirty(links[73:])
 
-text_file = open('CR_data_pt1.txt','w')
+text_file = open('CR3-16.txt','w')
 text_file.write(data_1)
 text_file.close()
 
-text_file = open('CR_data_pt2.txt','w')
-text_file.write(data_2)
-text_file.close()
+# text_file = open('CR_data_pt2.txt','w')
+# text_file.write(data_2)
+# text_file.close()
