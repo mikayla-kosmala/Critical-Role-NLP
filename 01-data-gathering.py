@@ -121,14 +121,14 @@ page = requests.get(URL)
 soup = BeautifulSoup(page.content, "html.parser")
 
 # Grab the links for all campaign 3 episodes and store them into a list
-results= soup.find_all('a',{'href':re.compile(r'^cr3-16')})
+results= soup.find_all('a',{'href':re.compile(r'^cr3-17')})
 
 links=[link['href'] for link in results][::-1]
 
 data_1 = data_gathering_episodes_dirty(links[:73])
 data_2 = data_gathering_episodes_dirty(links[73:])
 
-text_file = open('CR3-16.txt','w')
+text_file = open('CR3-17.txt','w')
 text_file.write(data_1)
 text_file.close()
 
