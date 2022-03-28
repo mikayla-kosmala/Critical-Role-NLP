@@ -3,13 +3,13 @@
 <!-- Critical Role Logo -->
 <br />
 <div align="center">
-  <img src="" alt="Logo" height="287">
+  <img src="soft-cosine.png" alt="Logo" height="287">
 
 
-<h3 align="center">Critical Role NLP Projects</h3>
+<h3 align="center">Cosine Similarity</h3>
 
   <p align="center">
-    This repository contains all of my natural language processing projects I have done using  <a href="https://kryogenix.org/crsearch/">Sil's Critical Role transcript website</a>.
+    Are the </a>.
 
   </p>
   
@@ -28,15 +28,4 @@
   
   
 <h3 align="left">Laura Bailey</h3>
-  <div class="row">
-  <div class="column">
-    <img src="https://i.pinimg.com/564x/24/d5/41/24d541acd791ae61a09b82ec5d7236b0.jpg" height="200">
-  </div>
-  <div class="column">
-    <img src="https://i.pinimg.com/originals/02/bd/a0/02bda013eb2d853b4277d969773d814c.jpg" height="200">
-  </div>
-  <div class="column">
-    <img src="https://444vno15v5re20btub322y5h-wpengine.netdna-ssl.com/wp-content/uploads/2020/11/Lemongrace-@lemongraceful.jpg" height="200">
-  </div>
-</div>
-  <img src="https://pbs.twimg.com/media/FDXPaTKVIAM9P5N?format=jpg&name=small" alt="Logo" height="200">
+  <img src="jznalkiht7181_LB_Characters.png" alt="Logo" height="200">
