@@ -112,7 +112,7 @@ def data_gathering_episodes_dirty(links):
         results = results.replace("\u0301", " ")
         results = results.replace("♫", " ")
         results = results.replace("\ufffd", " ")
-        scripts.ap
+        scripts.append(results)
     return "/n/n/n".join(scripts)
 
 URL = "https://kryogenix.org/crsearch/html/index.html"
