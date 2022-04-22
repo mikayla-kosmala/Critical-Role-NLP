@@ -44,9 +44,7 @@ I do not own critical role's content or claim to be affiated with their company.
 <!-- CONTACTS -->
 <h2 align="left">Contacts</h2>
 <p align="left">
-<ul>
-  <li align="left">Mikayla Kosmala - <a href="https://www.linkedin.com/in/mikayla-kosmala/">LinkedIn</a> + <a href="https://github.com/Mikaykay">Github</a></li>
-</ul>
+Mikayla Kosmala - <a href="https://www.linkedin.com/in/mikayla-kosmala/">LinkedIn</a> + <a href="https://github.com/Mikaykay">Github</a>
 </p>
 
 <!-- LICENSE 
